@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login or Create Account - Quintessa Modest Wear">
+    <title>Sign In - Quintessa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <p>Free Shipping on Orders Over ₨5,000 | Based in Islamabad, Pakistan</p>
+        </div>
+        <div class="container">
+            <nav class="nav-container">
+                <a href="index.html" class="logo">Quintessa</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="auth.html">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                    </a>
+                    <a href="cart.html">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-section">
+        <div class="auth-container">
+            <h1 class="auth-title">Welcome Back</h1>
+            <p style="text-align: center; color: var(--text-medium); margin-bottom: 30px;">Sign in to your account to
+                continue</p>
+
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-input" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-input" placeholder="Enter your password" required>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" style="margin-right: 8px;">
+                        <span style="font-size: 0.9rem; color: var(--text-medium);">Remember me</span>
+                    </label>
+                    <a href="#" style="font-size: 0.9rem; color: var(--accent-burgundy); text-decoration: none;">Forgot
+                        password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 20px;">Sign In</button>
+
+                <div style="text-align: center; margin: 25px 0;">
+                    <p style="color: var(--text-light); font-size: 0.9rem;">or continue with</p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px;">
+                    <button type="button" class="btn btn-secondary" style="padding: 12px;">
+                        <span style="font-weight: 600;">Google</span>
+                    </button>
+                    <button type="button" class="btn btn-secondary" style="padding: 12px;">
+                        <span style="font-weight: 600;">Facebook</span>
+                    </button>
+                </div>
+            </form>
+
+            <div class="auth-toggle">
+                <p>Don't have an account? <a href="#signup">Create one</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quintessa</h3>
+                    <p>Luxury modest wear crafted with elegance and grace. Based in Islamabad, Pakistan, serving
+                        customers worldwide with premium quality fashion.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">i</a>
+                        <a href="#" class="social-icon">t</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="shop.html">Shop All</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customer Care</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Islamabad, Pakistan</p>
+                    <p>Email: info@quintessa.pk</p>
+                    <p>Phone: +92 300 1234567</p>
+                    <p>Mon-Sat: 10:00 AM - 8:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Quintessa Modest Wear. All rights reserved. | Designed in Pakistan</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
