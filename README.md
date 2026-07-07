@@ -70,7 +70,7 @@ quintessa-modest-wear/
 
 ## 🚀 Live Demo
 
-*Coming soon — to be deployed on GitHub Pages*
+https://muhammadbilalkhalidmbk.github.io/quintessa-modest-wear/
 
 ---
 
